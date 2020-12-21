@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Orders Manager</h1>
+    <center>
+        <form method="POST" >
+               <table>
+                   <tr>
+                       <td><input type="text" placeholder="fill ItemSpecs  Here" name="itemSpecification"></td>
+                   </tr>
+                   <tr>
+                    <td><input type="text" placeholder="fill price  Here" name="rate"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="fill qty  Here" name="quantity"></td>
+                </tr>
+                <tr><td>
+                    <center>
+                        <!-- <input type="submit" value="save" formaction="/product/save"> -->
+                        <input type="submit" value="Search" formaction="/searchone" > 
+                        <input type="submit" value="Delete" formaction="/delete" > 
+                        <input type="submit" value="Add" formaction="/place-order" >
+                        <input type="submit" value="ShowALL" formaction="/showall" >
+                        <input type="submit" value="Update" formaction="/update" >
+                    </center>
+                </td></tr>    
+               </table>
+        </form>
+    </center>
+</body>
+</html>

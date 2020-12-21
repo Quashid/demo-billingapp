@@ -1,0 +1,11 @@
+var os=require("os");
+console.log(os.totalmem());
+console.log(os.freemem());
+console.log(os.homedir());
+console.log(os.hostname());
+console.log(os.platform());
+var json=os.cpus();
+console.log(json);
+var userinfo=os.userInfo();
+console.log(userinfo);
+console.log(os.platform());
